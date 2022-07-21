@@ -1,18 +1,19 @@
 try: # try
-    import os # import os
+    import os  # import os
     
 except: # except
     print("Please install OS module") # print info
     print("using 'pip install os' or 'pip3 install os'") # print info
     
 try: # try
-    import logging # import logging module
-    import rich # import rich module
-    import sys # import sys module
-    import time # import time module
-    import random # import random module
-    import pandas # import pandas module
-    import psutil # import psutil module
+    import logging  # import logging module
+    import random  # import random module
+    import sys  # import sys module
+    import time  # import time module
+
+    import pandas  # import pandas module
+    import psutil  # import psutil module
+    import rich  # import rich module
     
     
 except ImportError as e: # except
@@ -32,10 +33,10 @@ logging.basicConfig(level=logging.INFO,filename='debug\data.log', filemode='w', 
 
 logging.warning('Program is starting') # log start
 
-from rich import console
+from rich import console, syntax
 from rich.table import Table
+
 from scripts.accumulator import variable_organizer
-from rich import syntax
 
 text = console.Console() # create console object
 
@@ -45,7 +46,7 @@ def __innit__(): # function to initialize program
 
     os.system('cls') # clear screen
 
-    text.print("""
+    text.print("""[blink]
 ██████████     █████████   ███████████   █████████         ███████████ █████ ██████   █████ ██████████   ██████████ ███████████  
 ░░███░░░░███   ███░░░░░███ ░█░░░███░░░█  ███░░░░░███       ░░███░░░░░░█░░███ ░░██████ ░░███ ░░███░░░░███ ░░███░░░░░█░░███░░░░░███ 
  ░███   ░░███ ░███    ░███ ░   ░███  ░  ░███    ░███        ░███   █ ░  ░███  ░███░███ ░███  ░███   ░░███ ░███  █ ░  ░███    ░███ 

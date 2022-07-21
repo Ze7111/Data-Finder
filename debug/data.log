@@ -1,15 +1,6 @@
-16-Jul-22 14:18:21 - WARNING - Program is starting
-16-Jul-22 14:18:21 - INFO - Accumulator Loaded Successfully
-16-Jul-22 14:18:21 - INFO - Rich Class Loaded Successfully
-16-Jul-22 14:18:21 - INFO - Data Class Loaded Successfully
-16-Jul-22 14:18:21 - INFO - Collector Loaded Successfully
-16-Jul-22 14:18:21 - WARNING - INITIALIZING ALL FILES
-16-Jul-22 14:18:23 - INFO - User search (Name) entry screen is active
-16-Jul-22 14:18:23 - INFO - User searched for data arjun
-16-Jul-22 14:18:23 - INFO - Pd read file successfully
-16-Jul-22 14:18:23 - INFO - Index, Name, DOB, Phone, Email, Location, Extra lists created successfully
-16-Jul-22 14:18:23 - WARNING - Request not found used name
-16-Jul-22 14:18:23 - WARNING - No matching data found
-16-Jul-22 14:18:28 - WARNING - Program got an search error
-16-Jul-22 14:19:10 - INFO - User search (Name) entry screen is active
-16-Jul-22 14:19:10 - WARNING - User requested to exit
+21-Jul-22 21:29:52 - WARNING - Program is starting
+21-Jul-22 21:29:52 - INFO - Accumulator Loaded Successfully
+21-Jul-22 21:29:52 - INFO - Rich Class Loaded Successfully
+21-Jul-22 21:29:52 - INFO - Data Class Loaded Successfully
+21-Jul-22 21:29:52 - INFO - Collector Loaded Successfully
+21-Jul-22 21:29:52 - WARNING - INITIALIZING ALL FILES

@@ -70,7 +70,7 @@ class datacollect(): # class for data collection
                 
             if len(matching_name_index) == 0: # if matching_name_index is empty
                 console.print("[bold red]Error:[/bold red] Request not found", style="red") # print error message
-                logging.warning(f"Request not found used {condition}") # log error
+                logging.error(f"Request not found used {condition}") # log error
                 return 'none'
             
             return matching_name_index # return matching_name_index
